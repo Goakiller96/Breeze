@@ -713,6 +713,7 @@ h6 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 193px;
 }
 .hero__subtitle {
   font-family: Outfit;
@@ -934,7 +935,7 @@ h6 {
 }
 .goods__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 }
 @media (min-width: 84.375em) {
   .goods__wrapper {
@@ -1222,7 +1223,7 @@ h6 {
 .popular__wrapper {
   display: grid;
   gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(291px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(291px, 1fr));
 }
 .popular__item {
   background-color: #F8F9FA;
