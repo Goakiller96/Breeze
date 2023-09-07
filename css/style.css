@@ -681,10 +681,11 @@ h6 {
 
 .hero {
   background-image: url(../img/header-img.png);
-  background-repeat: no-repeat;
-  height: 595px;
   background-position: center;
   background-size: cover;
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
 }
 @media (min-width: 84.375em) {
   .hero {
@@ -713,7 +714,7 @@ h6 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 193px;
+  padding-bottom: 224px;
 }
 .hero__subtitle {
   font-family: Outfit;
